@@ -6,7 +6,7 @@ const Comic = props => {
             <h1>My XKCD App</h1>
             <h2>{props.comic.title}</h2>
             <div className="comic">
-                <img src={props.comic.img} />
+                <img src={props.comic.img} alt={props.comic.alt} />
                 <p>Month: {props.comic.month}</p>
                 <p>Year: {props.comic.year}</p>
             </div>
